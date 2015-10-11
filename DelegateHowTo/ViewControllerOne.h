@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllerOne : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *departmentLabel;
 
 @end
