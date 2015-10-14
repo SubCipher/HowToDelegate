@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182B79131BC8BC4B0040FEFA /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B79121BC8BC4B0040FEFA /* TableViewControllerOne.m */; };
 		182B79161BC8BC790040FEFA /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B79151BC8BC790040FEFA /* ViewControllerOne.m */; };
+		18BF142A1BCE086B0007A5B0 /* DepartmentsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF14291BCE086B0007A5B0 /* DepartmentsTableVC.m */; };
 		E20C02BF1BC61BE8003975F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C02BE1BC61BE8003975F9 /* main.m */; };
 		E20C02C21BC61BE8003975F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C02C11BC61BE8003975F9 /* AppDelegate.m */; };
 		E20C02C81BC61BE8003975F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20C02C61BC61BE8003975F9 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 		182B79121BC8BC4B0040FEFA /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		182B79141BC8BC790040FEFA /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
 		182B79151BC8BC790040FEFA /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		18BF14281BCE086B0007A5B0 /* DepartmentsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentsTableVC.h; sourceTree = "<group>"; };
+		18BF14291BCE086B0007A5B0 /* DepartmentsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentsTableVC.m; sourceTree = "<group>"; };
 		E20C02B91BC61BE8003975F9 /* DelegateHowTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateHowTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20C02BD1BC61BE8003975F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20C02BE1BC61BE8003975F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				182B79121BC8BC4B0040FEFA /* TableViewControllerOne.m */,
 				182B79151BC8BC790040FEFA /* ViewControllerOne.m */,
 				182B79141BC8BC790040FEFA /* ViewControllerOne.h */,
+				18BF14281BCE086B0007A5B0 /* DepartmentsTableVC.h */,
+				18BF14291BCE086B0007A5B0 /* DepartmentsTableVC.m */,
 			);
 			name = custom;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				E20C02C21BC61BE8003975F9 /* AppDelegate.m in Sources */,
 				182B79131BC8BC4B0040FEFA /* TableViewControllerOne.m in Sources */,
 				E20C02BF1BC61BE8003975F9 /* main.m in Sources */,
+				18BF142A1BCE086B0007A5B0 /* DepartmentsTableVC.m in Sources */,
 				182B79161BC8BC790040FEFA /* ViewControllerOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
