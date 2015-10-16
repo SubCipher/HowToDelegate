@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class DepartmentsTableVC;
+@protocol departmentDelegate <NSObject>
+
+-(void)didSelectWith:(DepartmentsTableVC *) controller department:(NSString *)department;
+
+
+
+@end
+
 @interface DepartmentsTableVC : UITableViewController
 
 @end
