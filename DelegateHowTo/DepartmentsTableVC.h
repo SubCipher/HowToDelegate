@@ -19,4 +19,7 @@
 
 @interface DepartmentsTableVC : UITableViewController
 
+@property (nonatomic, weak) id<departmentDelegate>delegate;
+
+
 @end
