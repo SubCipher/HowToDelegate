@@ -9,6 +9,8 @@
 #import "DepartmentsTableVC.h"
 
 @interface DepartmentsTableVC ()
+@property (nonatomic,strong)NSArray *departments;
+
 
 @end
 
@@ -17,11 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.departments = @[@"HR",@"Sales",@"Warehouse",@"office"];
 }
 
 - (void)didReceiveMemoryWarning {
