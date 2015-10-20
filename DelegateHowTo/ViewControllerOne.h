@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DepartmentsTableVC.h"
 
-@interface ViewControllerOne : UIViewController
+@interface ViewControllerOne : UIViewController <departmentDelegate>
+
 @property (strong, nonatomic) IBOutlet UILabel *departmentLabel;
 
 @end

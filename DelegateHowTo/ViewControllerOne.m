@@ -13,6 +13,14 @@
 @end
 
 @implementation ViewControllerOne
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"departmentsSegue"]){
+        DepartmentsTableVC *vc = [segue destinationViewController];
+        vc.delegate = self;
+    }
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,6 +31,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+-(void)didSelectWith:(DepartmentsTableVC *)controller department:(NSString *)department
+{
+    [controller dismissViewControllerAnimated:YES completion:nil];
+    self.departmentLabel.text = department;
+    
+}
+
+
+
+
+
 
 /*
 #pragma mark - Navigation
