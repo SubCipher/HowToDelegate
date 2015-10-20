@@ -94,4 +94,12 @@
 }
 */
 
+
+#pragma mark - Table view delegate
+
+-(void)talbeView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.delegate didSelectWith:self department:[self.tableView cellForRowAtIndexPath:indexPath].textLabel.text];
+}
+
 @end
